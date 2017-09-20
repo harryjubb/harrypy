@@ -5,8 +5,10 @@ Useful bits of Python, reduce copy-pasting
 
 To use:
 
-    pip install git+https://github.com/harryjubb/harrypy.git
+    pip2 install git+https://github.com/harryjubb/harrypy.git # PYTHON 2
+    pip3 install git+https://github.com/harryjubb/harrypy.git # PYTHON 3
 
 To use and [edit](https://pip.pypa.io/en/stable/reference/pip_install/#editable-installs):
 
-    pip install -e git+https://github.com/harryjubb/harrypy.git
+    pip2 install -e git+https://github.com/harryjubb/harrypy.git # PYTHON 2
+    pip3 install -e git+https://github.com/harryjubb/harrypy.git # PYTHON 3
