@@ -54,9 +54,9 @@ THREE_TO_ONE = {
     None: None
 }
 
-PROT_ATOM_TYPES = {
-    "hbond acceptor":       [
-        "ALAO",         # all the carbonyl Oxygens in the main chain
+AA_ATOM_TYPES = {
+    "hbond acceptor": [
+        "ALAO",  # all the carbonyl Oxygens in the main chain
         "ARGO",
         "ASNO",
         "ASPO",
@@ -76,7 +76,7 @@ PROT_ATOM_TYPES = {
         "TRPO",
         "TYRO",
         "VALO",
-        "ALAOXT",         # all the carbonyl Oxygens terminals
+        "ALAOXT",  # all the carbonyl Oxygens terminals
         "ARGOXT",
         "ASNOXT",
         "ASPOXT",
@@ -116,8 +116,8 @@ PROT_ATOM_TYPES = {
         "THROG1",  # isostar plots
         "TYROH"  # isostar plots
     ],
-    "hbond donor":          [
-        "ALAN",          # all the amide nitrogens in the main chain except proline
+    "hbond donor": [
+        "ALAN",  # all the amide nitrogens in the main chain except proline
         "ARGN",
         "ASNN",
         "ASPN",
@@ -216,7 +216,7 @@ PROT_ATOM_TYPES = {
         "TYROH"  # isostar plots
     ],
     "weak hbond acceptor": [
-        "ALAO",         # all the carbonyl Oxygens in the main chain
+        "ALAO",  # all the carbonyl Oxygens in the main chain
         "ARGO",
         "ASNO",
         "ASPO",
@@ -236,7 +236,7 @@ PROT_ATOM_TYPES = {
         "TRPO",
         "TYRO",
         "VALO",
-        "ALAOXT",         # all the carbonyl Oxygens terminals
+        "ALAOXT",  # all the carbonyl Oxygens terminals
         "ARGOXT",
         "ASNOXT",
         "ASPOXT",
@@ -277,7 +277,7 @@ PROT_ATOM_TYPES = {
         "TYROH"  # isostar plots
     ],
     "weak hbond donor": [
-        "ALACA",         # all the c-alphas
+        "ALACA",  # all the c-alphas
         "ARGCA",
         "ASNCA",
         "ASPCA",
@@ -354,7 +354,7 @@ PROT_ATOM_TYPES = {
         "VALCG1",
         "VALCG2"
     ],
-    "pos ionisable":   [
+    "pos ionisable": [
         "ARGNE",
         "ARGCZ",
         "ARGNH1",
@@ -427,8 +427,8 @@ PROT_ATOM_TYPES = {
         "VALCG1",
         "VALCG2"
     ],
-    "carbonyl oxygen":  [
-        "ALAO",         # all the carbonyl Oxygens in the main chain
+    "carbonyl oxygen": [
+        "ALAO",  # all the carbonyl Oxygens in the main chain
         "ARGO",
         "ASNO",
         "ASPO",
@@ -498,8 +498,23 @@ PROT_ATOM_TYPES = {
         "TYRCE1",
         "TYRCE2",
         "TYRCZ"
-
     ]
+}
+
+AA_TAYLOR_TYPES = {
+    'aliphatic': {'I', 'L', 'V'},
+    'aromatic': {'F', 'H', 'W', 'Y'},
+    'charged': {'D', 'E', 'H', 'K', 'R'},
+    'cysteine': {'C'},
+    'hydrophobic': {'A', 'C', 'F', 'G', 'H', 'I', 'K', 'L', 'M',
+                    'T', 'V', 'W', 'Y'},
+    'negative': {'D', 'E'},
+    'polar': {'C', 'D', 'E', 'H', 'K', 'N', 'Q', 'R', 'S', 'T',
+              'W', 'Y'},
+    'positive': {'H', 'K', 'R'},
+    'proline': {'P'},
+    'small': {'A', 'C', 'D', 'G', 'N', 'P', 'S', 'T', 'V'},
+    'tiny': {'A', 'C', 'G', 'S'}
 }
 
 
