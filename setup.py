@@ -24,7 +24,7 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version='0.0.1',
 
-    description='Useful bits and bobs,',
+    description='Useful bits and bobs.',
     long_description=long_description,
 
     # The project's main homepage.
@@ -47,7 +47,7 @@ setup(
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
+        'Topic :: Software Development :: Tools',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
@@ -64,7 +64,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='tools',
+    keywords='tools, development',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
