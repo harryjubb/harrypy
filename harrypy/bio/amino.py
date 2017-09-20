@@ -417,7 +417,7 @@ AA_ATOM_TYPES = {
         "TRPCZ3",
         "TRPCH2",
         "TRPCZ2",
-        "TRYCB",
+        "TYRCB",
         "TYRCG",
         "TYRCD1",
         "TYRCD2",
