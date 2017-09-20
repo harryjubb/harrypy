@@ -502,6 +502,7 @@ PROT_ATOM_TYPES = {
     ]
 }
 
+
 def _change_aa_format(aa, translator):
     '''
     General function for changing amino acids from one format to another
