@@ -349,7 +349,7 @@ AA_ATOM_TYPES = {
         "TYRCD2",
         "TYRCE1",
         "TYRCE2",
-        "TRYCB",
+        "TYRCB",
         "VALCB",
         "VALCG1",
         "VALCG2"
